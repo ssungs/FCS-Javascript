@@ -37,7 +37,10 @@ console.log(score);
 
 var score; // 로 변수를 선언하면 score에는 undefined 값이 지정된다.
 
-var score = 100; // var score; / score = 100; 2줄로 읽힌다.
+var score = 100; 
+
+// var score;
+   score = 100; 2줄로 읽힌다.
 ```
 
 호출을 먼저하고 변수를 지정해도 undefined 로 동작한다. (변수호이스팅)
