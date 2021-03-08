@@ -10,19 +10,32 @@
 
 ## 변수선언문
 
+```
 var a = 1;
+
 const b = 2;
+
 let c = 3;
+```
 
 var,const,let 은 키워드 | = 은 할당연산자 | a,b,c 은 변수이름(식별자) 
+
 var는 ES5이전 버전에서 사용할 수 있는 유일한 키워드였다.
+
 const,let 은 ES6 버전이 나오면서 새로 나온 키워드다.
+
 var 는 변수호이스팅을 한다.
 
 ## 변수선언
 
+```
 console.log(score);
-var score; 로 변수를 선언하면 score에는 undefined 값이 지정된다.
-var score = 100; >> var score; / score = 100; 2줄로 읽힌다.
+
+var score; // 로 변수를 선언하면 score에는 undefined 값이 지정된다.
+
+var score = 100; // var score; / score = 100; 2줄로 읽힌다.
+```
+
 호출을 먼저하고 변수를 지정해도 undefined 로 동작한다. (변수호이스팅)
+
 선언문들은 코드의 위에서 아래로 순차적 실행이 아닌 먼저 실행된다.
