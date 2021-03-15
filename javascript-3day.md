@@ -129,11 +129,8 @@ false && 'Dog'
 // 단축 평가(||)를 이용해 if문 대체하기
 var done = false;
 var message = '';
-
-// 주어진 조건이 false일 때
 if (!done) message = '미완료';
-
-// done이 false라면 message에 '미완료'를 할당
+>>'미완료'
 message = done || '미완료'; // 단축 평가로 대체
 console.log(message);
 >>'미완료'
