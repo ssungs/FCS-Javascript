@@ -140,9 +140,11 @@ const count = fruits.reduce((acc, cur) => {
   return acc;
 }, {});
 console.log(count);
->>{ banana: 1, apple: 2, orange: 2 } // {banana: 1} => {banana: 1, apple: 1} => {banana: 1, apple: 1, orange: 1}=> 
+>>{ banana: 1, apple: 2, orange: 2 } // {banana: 1} => {banana: 1, apple: 1} => 
 
-{banana: 1, apple: 1, orange: 2} => {banana: 1, apple: 2, orange: 2}
+{banana: 1, apple: 1, orange: 1}=> {banana: 1, apple: 1, orange: 2} => 
+
+{banana: 1, apple: 2, orange: 2}
 
 // 중첩 배열 평탄화
 const values = [1, [2, 3], 4, [5, 6]];
